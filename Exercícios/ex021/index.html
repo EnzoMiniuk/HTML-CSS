@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas inicio</title>
+    <style>
+        h1{
+            background-color: rgb(139, 134, 134);
+            width: 200px;
+            height: 200px;
+            border: 10px solid darkblue;
+            padding: 10px;
+            margin: 25px auto 40px auto;
+            outline: 10px dashed darkred;
+        }
+        a{ 
+            background-color: lightpink;
+            border: 3px darkgreen solid;
+            padding: 4px;
+            margin: auto;
+            font: normal 0.9em Arial, helvetica, sans-serif;
+        }
+        a:hover{
+            background-color: red;
+        }
+        .special{
+            background-color: lightblue;
+        }
+        .special::before{
+            content: "->";
+        }
+        .special::after{
+            content: "<-";
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello world, exemplo de caixa box-level</h1>
+    <p>Os links são um tipo de <a href="#" class="special">caixa inline-level</a></p>
+</body>
+</html>
