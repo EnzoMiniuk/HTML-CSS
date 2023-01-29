@@ -1,0 +1,21 @@
+@charset "UtF-8";
+
+h1, h2{
+    background-color: #FFFCD7;
+    font: bold 3em times, serif;
+    text-align: left;
+}
+#master{
+  text-align: center;
+  font-size: 3.5em;  
+  background-color: #F8C8C5;
+}
+body{
+    background-color: #CBE8DD;
+}
+div{
+    background-color: gray;
+}
+div:hover{
+    background-color: yellow;
+}
