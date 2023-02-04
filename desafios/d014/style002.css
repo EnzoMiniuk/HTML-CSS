@@ -2,9 +2,25 @@
 
 *{
     margin: 0px;
+    padding: 0px;
 }
 img{
     width: 98vw;
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+a{
+    background-color: darkred;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+}
+::-webkit-scrollbar{
+    display: none;
 }

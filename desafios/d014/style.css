@@ -19,6 +19,7 @@ section > iframe{
     transform: translate(50%, -50%);
     height: 483px;
     width: 275px;
+    
 }
 ul img{
     border: 1px solid black;
@@ -27,7 +28,14 @@ ul img{
 }
 ul{
     position: absolute;
-    right: 25px;
+    right: 15px;
     top: 25px;
     list-style-type: none;
+}
+li{
+    padding: 5px;
+}
+li:hover{
+    transform: translate(-5px, -5px);
+    transition: transform 0.3s;
 }
