@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+img{
+    width: 98vw;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
