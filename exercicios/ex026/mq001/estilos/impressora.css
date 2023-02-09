@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+}
+menu{
+    display: none;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 25px;
+}
+h2{
+    text-align: center;
+    font-size: 1.7em;
+    padding-bottom: 25px;
+}
+article::after{
+    text-align: center;
+    content: 'Escrito por Enzo Miniuk no dia 09/02/2023';
+}
